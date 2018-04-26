@@ -38,3 +38,8 @@ Thumbs.db
 
 # emacs
 *~
+
+# R
+.Rhistory
+.RData
+.Rdata
