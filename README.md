@@ -3,6 +3,6 @@
 ## Repository contains
 * [*tmbIntro*](https://github.com/mintoc/environmetrics/tree/master/tmbIntro) TMB introduction code from first meeting April 2018
 
-Take a look at
+Please visit
 https://environmetrics-forum.joomla.com/
 for more information
