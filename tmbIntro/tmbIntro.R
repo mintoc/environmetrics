@@ -79,13 +79,12 @@ compile("unknown_mean.cpp")
 ## load the function
 dyn.load(dynlib("unknown_mean"))
 
-
 ## ------------------------------------------------------------------------
 obj <- MakeADFun(
          data = list(y = y), 
          parameters = list(mu = 5),
          DLL = "unknown_mean",
-         silent = TRUE)
+         silent = FALSE)
 
 ## compare the log-likelihoods
 obj$fn(5); fmu(5)
